@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #e5e9eb;
+
+    }
+
+    .ota {
+        width: 810px;
+        margin-left: 550px;
+        background-color:#e5e9eb ;
+
+    }
+
+    header {
+        padding: 10px;
+        width: 850px;
+        margin-left: 550px;
+    }
+
+    .bir {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        border-radius: 8px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #008CBA;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    div {
+        background-color: #ffffff;
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 8px;
+    }
+
+    .ikki {
+        width: 245px;
+        float: left;
+        margin-left: 15px;
+    }
+
+    .tor {
+        width: 800px;
+
+    }
+
+    input, button{
+        width: 780px;
+    }
+
+    footer {
+        color: #5e5d5d;
+        text-align: center;
+    }
+
+    aside {
+        padding-top: 10px;
+        padding-bottom: 140px;
+    }
+
+    b {
+        float: left;
+        color: #008CBA;
+    }
+
+    header a {
+        float: right;
+        margin-right: 50px;
+    }
+
+</style>
+
+<body>
+    <header>
+        <b>Web Darslik</b>
+        <a href="#Bosh">Bosh sahifa</a>
+        <a href="#Hakida">Hakida</a>
+        <a href="#Kurslar">Kurslar</a>
+        <a href="#Kantakt">Kantakt</a>
+    </header>
+    <hr>
+    <div class="ota">
+        <div class="bir" id="Bosh">
+            <h1>Salom, Web ishlab chiquvchilar!</h1>
+            <p>Bu sahifa HTML va CSS asoslarini mashq qilish uchun mo'ljallangan.</p>
+            <button style="width: 200px;">Kurslarga qarang</button>
+        </div>
+        <div class="tor" id="Hakida">
+            <h3>Haqida</h3>
+            <p>Bu oddiy loyiha: header, nav, kontent, sidebar va footer elementlari mavjud.</p>
+        </div>
+        <aside id="Kurslar">
+
+            <div class="ikki">
+                <h3>HTML asoslari </h3>
+                <p>Elementlar, struktura va semantik teglari.</p>
+            </div>
+            <div class="ikki">
+                <h3>CSS asoslari</h3>
+                <p>Ranglar, tipografiya, box model va joylashuv.</p>
+            </div>
+            <div class="ikki">
+                <h3>Responsive dizayn</h3>
+                <p>Media queries va moslashuvchan tartib</p>
+            </div>
+
+        </aside>
+        <div class="tor">
+            <h3 id="Kantakt">Kantakt</h3>
+            <label for="ism">Ism</label>
+            <br>
+            <input type="text" id="ism">
+            <br>
+            <label for="email">email</label>
+            <br>
+            <input type="email">
+            <br><br>
+            <label for="Xabar">Xabar</label>
+            <br>
+            <textarea name="Xabar" id="Xabar" rows="6" cols="105">Xabar</textarea>
+            <br>
+            <button>Yuborish</button>
+        </div>
+        <br><br>
+        <br>
+        <footer>
+            ©2025 Web Darslik Hammasi oddiy va tushunarli.
+        </footer>
+    </div>
+</body>
+
+</html>
